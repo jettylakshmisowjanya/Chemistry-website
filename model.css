@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    line-height: 1.6;
+    margin: 20px;
+    padding: 0px;
+}
+.heading{
+    font-family: "Sarabun", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  padding-bottom: 20px;
+}
+#para1{
+    font-size: 20px;
+    font-family: "Sarabun", sans-serif;
+    font-weight:400;
+    font-style: normal;
+    cursor: pointer;
+    
+}
+#para2{
+    font-size: 20px;
+    font-family: "Sarabun", sans-serif;
+    font-weight:400;
+    font-style: normal;
+    cursor: pointer;
+}
+#para3{
+    font-size: 20px;
+    font-family: "Sarabun", sans-serif;
+    font-weight:400;
+    font-style: normal;
+    cursor: pointer;
+}
+#para4{
+    font-size: 20px;
+    font-family: "Sarabun", sans-serif;
+    font-weight:400;
+    font-style: normal;
+    cursor: pointer;
+}
+#para5{
+    font-size: 20px;
+    font-family: "Sarabun", sans-serif;
+    font-weight:400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+#container{
+
+    max-width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(to right, lightblue, rgb(198, 143, 225));
+    padding-top: 0.5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:1000px;
+    height: 70px;
+    text-align: left;
+    
+
+}
+#cont2{
+    
+    max-width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(to right, lightblue, rgb(198, 143, 225));
+    padding-top: 0.5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:1000px;
+    height: 70px;
+    text-align: left;
+    position: sticky;
+}
+#cont3{
+    
+    max-width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(to right, lightblue, rgb(198, 143, 225));
+    padding-top: 0.5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:1000px;
+    height: 70px;
+    text-align: left;
+
+}
+#cont4{
+    
+    max-width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(to right, lightblue, rgb(198, 143, 225));
+    padding-top: 0.5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:1000px;
+    height: 70px;
+    text-align: left;
+
+}
+#cont5{
+    
+    max-width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(to right, lightblue, rgb(198, 143, 225));
+    padding-top: 0.5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:1000px;
+    height: 70px;
+    text-align: left;
+
+}
+
+#table1{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    visibility: hidden;
+
+    
+}
+#table2{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    visibility: hidden;
+
+    
+}
+#table3{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    visibility: hidden;
+
+    
+}
+#table4{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    visibility: hidden;
+
+    
+}
+#table5{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    visibility: hidden;
+
+    
+}
+
+.table-head:hover{
+    text-decoration: underline;
+   text-decoration-color: #ccc;
+}
+th, td{
+    border: 1px;
+    padding: 10px;
+    text-align: center;
+    border-collapse: collapse;
+   
+}
+tr{
+    border-bottom: 1px solid #ccc;
+}
+
+th{
+    background-color: #f2f2f2;
+    
+
+}
+tr:hover{
+    background-color: #f5f5f5;
+}
+.center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: none;
+}

@@ -1,0 +1,66 @@
+.small{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.semimain{
+    line-height: 35px;
+}
+
+.semisub{
+    width: 349px;
+    line-height: 25px;
+    padding-top: 15px;
+    align-content: center;
+    height: 100px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.bg{
+    width: 800px; 
+    position: relative; 
+    margin-left: 100px;
+}
+
+.sm1{
+    top: 130px; 
+    left: 1090px;
+}
+.sm2{
+    top: 130px; 
+    left: 890px;
+}
+.sm3{
+    top: 330px; 
+    left: 1090px;
+}
+.sm4{
+    top: 330px; 
+    left: 890px;
+}
+.sm5{
+    top: 330px; 
+    left: 690px;
+}
+.sm6{
+    top: 330px; 
+    left: 490px;
+}
+.sm7{
+    top: 530px; 
+    left: 1090px;
+}
+.sm8{
+    top: 530px; 
+    left: 890px;
+}
+.sm9{
+    top: 530px; 
+    left: 690px;
+}
+.sm10{ 
+    top: 530px; 
+    left: 490px;
+}

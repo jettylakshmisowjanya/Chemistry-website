@@ -1,0 +1,18 @@
+
+.equi{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 35px;
+}
+.eqp{
+    background-color: white; 
+    position: absolute; 
+    top: 380px; 
+    width: 550px; 
+    left : 600px;
+    padding: 30px;
+}
+

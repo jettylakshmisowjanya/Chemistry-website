@@ -1,0 +1,127 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 120px;
+}
+.head{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2px;
+    padding-bottom: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    border-bottom: 5px solid white;
+    background: linear-gradient(120deg, rgb(155, 216, 240) 1%, rgb(249, 180, 249) 110%);
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 75px; 
+    left: 0;
+    right: 0;
+    z-index: 9;
+    background: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.nav,.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.main{
+    cursor: pointer;
+    width: 100px;  
+    border: 1px solid transparent;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.about{
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    box-sizing: border-box;
+   position: relative;
+    
+}
+.nav li{
+    font-weight: normal;
+    padding-right: 0;
+    text-align: left;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding-right: 200px;
+}
+.hov{
+    position: absolute;
+    display: none;
+    top: 30px;
+    list-style-type: none;
+    line-height: 25px;
+    white-space: nowrap;   
+}
+
+.ho:hover{
+    color: rgb(48, 177, 216);
+}
+
+.nav{
+    margin-bottom: 30px;
+}
+.hov li{
+    
+    width: 230px;
+    text-align: center;
+    background: #F0F7FD;
+    white-space: nowrap;
+    height: 30px
+   
+   
+}
+.hov ul{
+    border: 1px solid black;
+}
+.hov li:hover{
+    background:linear-gradient(90deg, lightblue 0, plum 100%);
+}
+.about:hover .hov{
+    display: block;
+}
+.right input{
+    height: 40px;
+    border-right: none;
+    border: 1px solid grey;
+}
+.right button{
+    height: 44px;
+    width: 45px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+.right{
+    margin-right: 40px;
+}
+.abt1{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   margin-bottom: 250px;
+}
+a{
+    text-decoration-line: none;
+    color: black;
+}
